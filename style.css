@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Varela+Round&display=swap');
+*{
+    font-family: "Poppins", serif;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: max(1000px 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+.main .box{
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgba(13, 13, 13, 0.122);
+    position:absolute;
+    top:0;
+}
+nav{
+    background: transparent;
+    max-width: 70vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+nav img{
+    color: rgb(132, 3, 3);
+    width: 114px;
+    position: relative;
+    z-index: 10;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    font-family: "Martel Sans", serif;
+  font-weight: 1000;
+  font-style: normal;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(245, 245, 245);
+    padding: 23px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.hero:first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.sepration
+{
+    height: 7px;
+    background-color: black;
+}
+.btn
+{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid white;
+
+}
+.btn-red{
+    background-color: rgba(255, 10, 10, 0.89);
+    color: white;
+    border-radius: 9px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.main input{
+    padding: 9px 24px;
+    font-size: 13px;
+    border-radius: 10px;
+    box-shadow: 50vh;
+    color: rgb(255, 255, 255);
+    scrollbar-shadow-color: aliceblue;
+    border: 3px solid rgba(255, 255, 255, 0.519);
+}
+.img1
+{
+    display: flex;
+    image-rendering: auto;
+    shape-image-threshold: initial;
+}
+.trend watch{
+    size: 10vh;
+}
